@@ -1,9 +1,13 @@
 # Ignore the virtual environment
 .venv/
+.env/
 
 # Ignore Python cache files
 __pycache__/
 
-# Ignore dependency list (optional)
+# Ignore dependency list 
 *.csv
 *.json
+
+# Ignore the database
+tagged_plots.txt
